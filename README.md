@@ -1,8 +1,8 @@
 # CashCamel
 
-Status: Completed software archive project
+Status: Completed web application
 
-I built CashCamel as a Firebase web app for friend-group contracts, deposits, withdrawals, Google sign-in, and agreement-based release workflows. I keep it public as evidence of full-stack product thinking, Firebase experience, and early financial/workflow application design.
+I built CashCamel as a Firebase web app for friend-group contracts, deposits, withdrawals, Google sign-in, and agreement-based release workflows.
 
 ![CashCamel contract creation screen](media/ContractCreate.png)
 
@@ -21,13 +21,13 @@ I built the app as a small escrow-style tool for groups. Users could create a co
 
 ## Implementation
 
-I used Firebase hosting, database storage, Google authentication, and JavaScript. The portfolio version documents the contract creation screen and contract detail workflow.
+I used Firebase hosting, database storage, Google authentication, and JavaScript. The main workflow centered on creating a contract, tracking participant state, and showing the agreement history clearly enough that users could understand what had happened inside a group.
 
 ![CashCamel contract detail screen](media/Contract.png)
 
-## Status Notes
+## What I Learned
 
-I keep this as a software archive project. It demonstrates product and backend/web capability, but I place it below embedded, PCB, robotics, and power-electronics projects in my electrical-engineering-focused portfolio.
+This project helped me work through real product-state problems: user identity, balances, contract status, payment-like flows, history views, and agreement logic. It also gave me more experience connecting a front-end interface to Firebase services without needing a separate always-on server.
 
 ## Portfolio
 
